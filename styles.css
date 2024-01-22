@@ -1,0 +1,72 @@
+:root{
+    --background-green:hsl(75, 94%, 57%);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color:  hsl(0, 0%, 8%);
+    color: hsl(0, 1%, 70%);
+    font-size: 14px;
+}
+
+.content{
+    text-align: center;
+}
+
+h4{
+    color: var(--background-green);
+    margin-bottom: 10px;
+}
+
+.card{
+    width: 350px;
+    height: 520px;
+    background-color: hsl(0, 0%, 12%);
+    border: 1px solid hsl(0, 0%, 8%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:25px;
+}
+
+img{
+    border-radius: 50%;
+    width: 120px;
+}
+
+.links li{
+    margin: 10px;
+    list-style: none;
+    padding: 10px;
+    background: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    width: 85%;
+    margin: 10px auto;
+}
+
+.links a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: hsl(0, 1%, 70%);
+}
+
+li:hover{
+    background: var(--background-green);
+    color: black;
+}
+
